@@ -8,12 +8,23 @@ public class PlayerController : MonoBehaviour
     public float speed = 30;
     public float horizontalInput;
     public float verticalInput;
+
+    // 1/8 zixinma
+    public float jumpForce;
+    public float gravityModifier;
+    public bool isOnGround = true;
+
+    
+
     private int xRange = 20;
     public GameObject flyFood;
+    private Rigidbody playerRb;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerRb = GetComponent<Rigidbody>();
+        Physics.gravity *= gravityModifier;
     }
 
     // Update is called once per frame
@@ -36,9 +47,26 @@ public class PlayerController : MonoBehaviour
         }
 
         // Generate fly food
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             Instantiate(flyFood, transform.position, flyFood.transform.rotation);
         }
+
+        // 1/8 zixinma
+
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+        {
+            playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isOnGround = false;
+        }
     }
+
+    // 1/8 zixinma
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        isOnGround = true;
+    }
+
 }
+
