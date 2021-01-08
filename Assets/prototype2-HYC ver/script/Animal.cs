@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// tset github
+
 public class Animal : MonoBehaviour
 {
     public float speed = 5.0f;
