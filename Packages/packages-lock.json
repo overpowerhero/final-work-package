@@ -67,6 +67,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< Updated upstream
     "com.unity.multiplayer-hlapi": {
       "version": "1.0.6",
       "depth": 0,
@@ -76,6 +77,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.purchasing": {
       "version": "2.1.1",
       "depth": 0,
@@ -128,6 +131,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< Updated upstream
     "nuget.mono-cecil": {
       "version": "0.1.6-preview",
       "depth": 1,
@@ -135,6 +139,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
