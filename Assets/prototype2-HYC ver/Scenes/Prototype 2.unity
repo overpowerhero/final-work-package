@@ -683,7 +683,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1997997952}
-  - component: {fileID: 1997997951}
   - component: {fileID: 1997997953}
   m_Layer: 0
   m_Name: GOD
@@ -692,19 +691,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1997997951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1997997950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 967f3eccaa8873044b9007f16a838b2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animalPrefabs: []
 --- !u!4 &1997997952
 Transform:
   m_ObjectHideFlags: 0
@@ -735,6 +721,9 @@ MonoBehaviour:
   - {fileID: 2391136556156068555, guid: b3ecf4c51472cab4a9e04e4c2bff017e, type: 3}
   - {fileID: 3910334521467421352, guid: de863e6617403264a8c3156811f83597, type: 3}
   - {fileID: 251248519246063907, guid: f26b503ea4f81854db1b9fe3b4a816dd, type: 3}
+  - {fileID: 3986215367859626727, guid: 5f16526418820134796a3427cd7c1d64, type: 3}
+  - {fileID: 337275100788131779, guid: 10bfc9bd96853ee43bf8313fa921bf77, type: 3}
+  - {fileID: 4671376402655135862, guid: 5b8c92af6ecaca346b055a81bc7cdc5c, type: 3}
 --- !u!1001 &1998232080
 PrefabInstance:
   m_ObjectHideFlags: 0
